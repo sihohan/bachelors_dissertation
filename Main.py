@@ -1,26 +1,3 @@
-'''
-GPU login info
-server ip: 223.194.227.150
-server port: 222
-login name: group_extra_1
-login password: gex1_wufl1
-'''
-
-'''
-- Understand the concept of decision trees and boosted trees in particular
-- Understand the use case of splice site detection (e.g., what nucleotide patterns point to the presence or absence of a splice site)
-- Learn how to work with the Python edition of XGBoost
-- Given a candidate splice site, make use of Python to extract meaningful nucleotide patterns (so-called features) in the neighborhood of the candidate splice site
-- Make use of the Python edition of XGBoost to implement splice site detection, using the manually extracted features
-- Compare the performance of the XGBoost approach (manual features) with the performance of neural networks (learned features), with the latter approach used during the last hands-on session of Bioinformatics
-'''
-
-# nohup python3 -u script.py > output.txt &
-# nohup: independent; &: background
-# xvfb-run python3 <name_of_file>.py
-
-'''Splice Site Prediction'''
-
 from heapq import nlargest
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, train_test_split
