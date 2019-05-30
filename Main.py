@@ -87,8 +87,6 @@ if feature_type == 'potential':
     if data_type == 'acceptors':
         context_list = [(20, 80), (100, 100), (50, 50), (100, 20)]
 
-context_list = [(10, 10)]
-
 # Define the feature name as Pk for positional features or Ck for compositional features
 if feature_type in ['positional', 'compositional']:
     feature_name = '{}'.format(feature_type[0].upper())+'{}'.format(k)
